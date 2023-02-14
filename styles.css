@@ -1,0 +1,149 @@
+:root {
+  --dimension-border: 2rem;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background: rgb(7, 50, 86);
+}
+ul > li {
+  list-style: none;
+  margin: 10px auto;
+}
+#titulo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(2, 40, 71);
+  color: white;
+  display: flex;
+  padding: 1.2rem 5rem;
+  justify-content: space-between;
+  z-index: 1;
+}
+#titulo h1 {
+  margin: 1rem 1rem;
+}
+#nav-bar li {
+  display: inline-block;
+  margin: 1rem;
+  background-color: white;
+  padding: 10px 3px;
+  border-radius: 20px;
+}
+#nav-bar li a {
+  text-decoration: none;
+  color: rgb(2, 40, 71);
+  border: 0.1rem solid rgb(2, 40, 71);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.cuerpo {
+  margin-top: 8rem;
+}
+
+img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+#under-list ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 2rem;
+}
+.title-list {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0 0 3px 3px rgb(247, 245, 245);
+}
+
+#under-list > p {
+  margin:2rem 5rem;
+}
+
+.tecnologico {
+  text-align: center;
+  opacity: 0.9;
+  width: 15rem;
+  height: 15rem;
+  border-radius: var(--dimension-border);
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+}
+.tecnologico .title {
+  background-color: rgb(9, 75, 118);
+}
+
+.tecnologico .description {
+  background-color: white;
+  color: black;
+  height: 4rem;
+}
+.tecnologico:hover {
+  transform: translateY(-5px);
+}
+#under-list h2:hover {
+  box-shadow: 0 0 10px 3px white;
+}
+#order-list h2 {
+  text-align: center;
+  box-shadow: 0 0 3px 3px white;
+  width: 50%;
+  margin:0px auto;
+  font-size: 2rem;
+}
+
+#order-list > p {
+  margin:2rem 5rem;
+}
+#order-list ol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  gap: 25px;
+  margin: 10px auto;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.deportivos {
+  background-color: white;
+  width: 15rem;
+  height: 14rem;
+  text-align: center;
+  border-radius: var(--dimension-border);
+  overflow: hidden;
+}
+
+.deportivos .title {
+  background-color: rgb(9, 75, 118);
+}
+
+.deportivos .description {
+  color: black;
+}
+.alemania img {
+  object-position: 0px -50px;
+}
+.deportivos:hover {
+  transform: translateY(-5px);
+}
